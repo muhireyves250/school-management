@@ -163,7 +163,7 @@ const ProfilePage = async () => {
                     {role === "teacher" && <BigCalendarContainer type="teacherId" id={user.id} />}
                     {role === "student" && <BigCalendarContainer type="classId" id={user.class.id} />}
                     {role === "admin" && <div className="p-4 text-gray-500">Admins can view and manage all schedules from the menu.</div>}
-                    {role === "parent" && <div className="p-4 text-gray-500">Parents can view their children's schedules from the students list.</div>}
+                    {role === "parent" && <div className="p-4 text-gray-500">Parents can view their children&apos;s schedules from the students list.</div>}
                 </div>
             </div>
             {/* RIGHT */}
